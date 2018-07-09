@@ -6,8 +6,8 @@ USER SELECTS MEDIA
 MATCH USERS
 1) compare all users' movie arrays the more overlap the higher the match
 2) 1 pt for a similar match
-	 2 pts for a similar match to primary search 
-	 5 pts for primary (search) to primary
+   2 pts for a similar match to primary search 
+   5 pts for primary (search) to primary
 DISPLAY RANKED RESULTS
 1) order matches (all users in descending order)
 2) display matches
