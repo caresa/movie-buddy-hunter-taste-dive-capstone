@@ -1,0 +1,15 @@
+USER SELECTS MEDIA
+1) chose media type a button that 'music', 'books', or 'movie.'
+2) search selected media
+3) store results in an array
+4) store search movie
+MATCH USERS
+1) compare all users' movie arrays the more overlap the higher the match
+2) 1 pt for a similar match
+   2 pts for a similar match to primary search 
+   5 pts for primary (search) to primary
+DISPLAY RANKED RESULTS
+1) order matches (all users in descending order)
+2) display matches
+    
+	
