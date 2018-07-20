@@ -1,0 +1,132 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+/*general styles*/
+html{
+    background: url("img/chalk.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+
+p{
+    color: grey;
+    font-size: 2em;
+    text-shadow: .05em .05em black;
+
+}
+
+/*header styles*/
+header h1, p {
+    text-align: center;
+    margin-top: .25em;
+    margin-bottom: .60em;
+    font-family: 'Paytone One', sans-serif;
+}
+/*content styles*/
+h1{
+    font-size: 4em;
+    letter-spacing: .05em;
+    color: #5E999E;
+    text-shadow: .05em .05em black;
+
+}
+
+.modal{
+    width: 60%;
+    height: 8em;
+    background-color: white;
+    border-radius: .5em;
+    margin: 0 auto;
+    padding: 1.1em;
+}
+
+.container{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 50%;
+    background-color: #D88272;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    margin-left: 1em;
+}
+
+/*footer styles*/
+
+
+
+
+
+
+
+
+
+/* mobile first approach = (the website was built initialy for mobiles and it will be adapted for desktop)
+This is the ideal way to built websites because it is much easier to adapt from a small screen and low computing power (mobiles) to a large screen and high computing power (desktops)
+*/
+
+
+/*iPhone portrait*/
+
+@media only screen and (min-width: 320px) {
+
+}
+
+
+/*iPhone landscape*/
+
+@media only screen and (min-width: 480px) {
+
+}
+
+
+/*ipad potrait*/
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/*ipad lanscape / small laptop*/
+
+@media only screen and (min-width: 1024px) {
+
+}
