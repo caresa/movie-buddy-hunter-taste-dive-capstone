@@ -18,7 +18,7 @@
 }
 /*general styles*/
 html{
-    background: url("img/chalk.jpg") no-repeat center center fixed;
+    background: url("web-imgs/chalk.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
@@ -77,8 +77,8 @@ input[type=text]{
 }
 
 button{
-    border-radius: 50%;
-    background-color: #D88272;
+    border-radius: 4px;
+    background-color: #5E999E;;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -87,6 +87,7 @@ button{
     font-family: 'Josefin Sans', sans-serif;
     cursor: pointer;
     margin-left: 1em;
+    color: white;
 }
 
 /*footer styles*/
