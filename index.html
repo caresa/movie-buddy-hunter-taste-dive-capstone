@@ -19,23 +19,24 @@
       <section role="region">
        <div class="modal">
           <div class="container">
-           <form id="js-start" action="" method="post">
+           <form id="js-start">
                <fieldset name="query-term">
                    <legend>Let's get started:</legend>
                    <div>
-                       <input placeholder="Broadcast" type="text" name="search" id="search-term" />
+                       <input placeholder="Broadcast" type="text" name="search" class="js-search-term" />
                        <button type="submit" class="js-search">Search
                        </button>
                    </div>
                    <div>
-                       <label><input type="radio" name="media" value="Music" checked="checked"> Music</label>
-                       <label><input type="radio" name="media" value="Movie"> Movie</label>
-                       <label><input type="radio" name="media" value="Book"> Book</label>
+                       <label><input type="radio" name="media" value="music" checked="checked"> Music</label>
+                       <label><input type="radio" name="media" value="movie"> Movie</label>
+                       <label><input type="radio" name="media" value="book"> Book</label>
                    </div>
                </fieldset>
             </form>
           </div>
        </div>
+       <div class="js-results"></div>
       </section>
     </main>
     <!--scripts-->
