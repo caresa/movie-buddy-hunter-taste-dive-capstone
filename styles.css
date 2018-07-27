@@ -25,6 +25,11 @@ html{
     background-repeat: no-repeat;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 p{
     color: grey;
@@ -90,6 +95,40 @@ button{
     color: white;
 }
 
+.contain{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    position: relative;
+    border: 5px solid #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.contain a{
+    display: block;
+    clear: right;
+
+}
+
+.js-name{
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.js-info {
+    text-align: left;
+    font-size: 65%;
+    float: right;
+    width: 66%;
+}
+
+js-video {
+    float: right;
+    width: 33%;
+}
 /*footer styles*/
 
 
