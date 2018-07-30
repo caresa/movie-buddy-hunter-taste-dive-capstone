@@ -152,6 +152,7 @@ button {
     display: block;
     /*height: 50px;*/
     border: 1px solid red;
+    overflow: hidden;
 }
 
 /*footer styles*/

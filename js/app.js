@@ -66,7 +66,8 @@ function watchSubmit() {
                     $('.js-results').append(output);
                     $('.readmore-contain').readmore({
                         moreLink: '<a href="#">Read more</a>',
-                        collapsedHeight: 70
+                        collapsedHeight: 70,
+                        //overflow: hidden;
                     });
 
                 }
