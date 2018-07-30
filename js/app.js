@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    watchSubmit ();
+$(document).ready(function () {
+    watchSubmit();
 });
 
 
@@ -7,7 +7,7 @@ $(document).ready(function() {
 const BASE_URL = "https://tastedive.com/api/similar?"
 
 //callback to api
-function getData (type, searchTerm, callback) {
+function getData(type, searchTerm, callback) {
     $.ajax({
         dataType: "jsonp",
         url: BASE_URL,
@@ -15,15 +15,15 @@ function getData (type, searchTerm, callback) {
             q: searchTerm,
             info: 1,
             limit: 20,
-            k:'310867-Suggesti-U8OHEM8L',
+            k: '310867-Suggesti-U8OHEM8L',
             type: type
         },
         success: callback
     });
 };
 
-function watchSubmit () {
-    $('#js-start').submit(event =>{
+function watchSubmit() {
+    $('#js-start').submit(event => {
         event.preventDefault();
 
         const queryTarget = $(event.currentTarget).find('.js-search-term');
@@ -35,15 +35,14 @@ function watchSubmit () {
         console.log(queryVal);
         console.log(typeVal);
 
-        if (queryVal == ""){
+        if (queryVal == "") {
             $('.js-results').html(`Please enter a valid query`);
-        }
-        else {
+        } else {
             //clear input
             queryTarget.val("");
             getData(typeVal, queryVal, function (data) {
                 $('.js-results').html("");
-                for(var i in data.Similar.Results) {
+                for (var i in data.Similar.Results) {
                     $('js-results').append(data.Similar.Results[i].Name);
                     let output =
                         `
@@ -66,15 +65,14 @@ function watchSubmit () {
                         `;
                     $('.js-results').append(output);
                     $('.readmore-contain').readmore({
-                moreLink: '<a href="#">Read more</a>',
-                collapsedHeight: 70
-    });
+                        moreLink: '<a href="#">Read more</a>',
+                        collapsedHeight: 70
+                    });
 
                 }
-               
+
             });
         }
 
     });
 }
-

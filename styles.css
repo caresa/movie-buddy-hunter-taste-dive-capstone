@@ -1,4 +1,5 @@
 /*css reset*/
+
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +17,13 @@
     -webkit-padding-start: 0px;
     -webkit-padding-end: 0px;
 }
+
 /*general styles*/
-html{
+
+html {
     background: url("web-imgs/chalk.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-color: hsla(0,0%,100%,0.30);
+    background-color: hsla(0, 0%, 100%, 0.30);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
 }
@@ -31,7 +34,7 @@ html{
     display: table;
 }
 
-p{
+p {
     color: grey;
     font-size: 2em;
     text-shadow: .05em .05em black;
@@ -39,7 +42,9 @@ p{
 }
 
 /*header styles*/
-header h1, p {
+
+header h1,
+p {
     text-align: center;
     margin-top: .25em;
     margin-bottom: .60em;
@@ -47,7 +52,8 @@ header h1, p {
 }
 
 /*content styles*/
-h1{
+
+h1 {
     font-size: 4em;
     letter-spacing: .05em;
     color: #5E999E;
@@ -55,7 +61,7 @@ h1{
 
 }
 
-.modal{
+.modal {
     width: 60%;
     height: 8em;
     background-color: white;
@@ -64,13 +70,13 @@ h1{
     padding: 1.1em;
 }
 
-.container{
+.container {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 
-input[type=text]{
+input[type=text] {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -82,9 +88,10 @@ input[type=text]{
     cursor: pointer;
 }
 
-button{
+button {
     border-radius: 4px;
-    background-color: #5E999E;;
+    background-color: #5E999E;
+    ;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -96,7 +103,7 @@ button{
     color: white;
 }
 
-.contain{
+.contain {
     background-color: white;
     background-size: cover;
     background-position: center;
@@ -109,13 +116,13 @@ button{
     border-bottom-left-radius: 0;
 }
 
-.contain a{
+.contain a {
     display: block;
 
 }
 
-.js-name{
-    font-family:'Josefin Sans', sans-serif;
+.js-name {
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
 }
 
@@ -124,65 +131,49 @@ button{
     font-size: 1em;
     display: inline-block;
     width: 66%;
-    font-family:'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
 }
 
-.js-info + .readmore-js-toggle { 
-    padding-bottom: 1.5em; 
-    border-bottom: 1px solid #999; 
+.js-info + .readmore-js-toggle {
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #999;
     font-weight: bold;
 }
 
-.js-video{
+.js-video {
     display: inline-block;
     width: 32%;
-    
+
 }
 
-.readmore-contain{
+.readmore-contain {
     display: block;
     /*height: 50px;*/
     border: 1px solid red;
 }
+
 /*footer styles*/
-
-
-
-
-
-
-
-
 
 /* mobile first approach = (the website was built initialy for mobiles and it will be adapted for desktop)
 This is the ideal way to built websites because it is much easier to adapt from a small screen and low computing power (mobiles) to a large screen and high computing power (desktops)
 */
 
-
 /*iPhone portrait*/
 
-@media only screen and (min-width: 320px) {
-
-}
+@media only screen and (min-width: 320px) {}
 
 
 /*iPhone landscape*/
 
-@media only screen and (min-width: 480px) {
-
-}
+@media only screen and (min-width: 480px) {}
 
 
 /*ipad potrait*/
 
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px) {}
 
 
 /*ipad lanscape / small laptop*/
 
-@media only screen and (min-width: 1024px) {
-
-}
+@media only screen and (min-width: 1024px) {}

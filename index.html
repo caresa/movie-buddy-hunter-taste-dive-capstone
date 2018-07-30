@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>suggestionBox</title>
-        <!--styles-->
-       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Paytone+One" rel="stylesheet">
-        <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-        <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
-        <link href="styles.css" rel="stylesheet" type="text/css" />
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>suggestionBox</title>
+    <!--styles-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Paytone+One" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
 <body>
     <header role="banner">
         <h1 id="heading">Suggestion Box</h1>
         <p>An app to find new things based on your taste!</p>
     </header>
     <main role="main" id="bg">
-      <section role="region">
-       <div class="modal">
-          <div class="container">
-           <form id="js-start">
-               <fieldset name="query-term">
-                   <legend>Let's get started:</legend>
-                   <div>
-                       <input placeholder="Broadcast" type="text" name="search" class="js-search-term" />
-                       <button type="submit" class="js-search">Search
+        <section role="region">
+            <div class="modal">
+                <div class="container">
+                    <form id="js-start">
+                        <fieldset name="query-term">
+                            <legend>Let's get started:</legend>
+                            <div>
+                                <input placeholder="Broadcast" type="text" name="search" class="js-search-term" />
+                                <button type="submit" class="js-search">Search
                        </button>
-                   </div>
-                   <div>
-                       <label><input type="radio" name="media" value="music" checked="checked"> Music</label>
-                       <label><input type="radio" name="media" value="movie"> Movie</label>
-                       <label><input type="radio" name="media" value="book"> Book</label>
-                   </div>
-               </fieldset>
-            </form>
-          </div>
-       </div>
-       <div class="js-results"></div>
-      </section>
+                            </div>
+                            <div>
+                                <label><input type="radio" name="media" value="music" checked="checked"> Music</label>
+                                <label><input type="radio" name="media" value="movie"> Movie</label>
+                                <label><input type="radio" name="media" value="book"> Book</label>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="js-results"></div>
+        </section>
     </main>
     <!--scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
