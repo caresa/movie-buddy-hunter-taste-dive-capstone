@@ -45,6 +45,7 @@ header h1, p {
     margin-bottom: .60em;
     font-family: 'Paytone One', sans-serif;
 }
+
 /*content styles*/
 h1{
     font-size: 4em;
@@ -120,7 +121,7 @@ button{
 
 .js-info {
     text-align: left;
-    font-size: 65%;
+    font-size: 1em;
     float: right;
     width: 66%;
     font-family:'Josefin Sans', sans-serif;

@@ -1,14 +1,5 @@
 $(document).ready(function() {
     watchSubmit ();
-     $('.js-name').readmore({
-      moreLink: '<a href=".js-name"${data.Similar.Results[i].wTeaser}</a>',
-      collapsedHeight: 100,
-      afterToggle: function(trigger, element, expanded) {
-        if(! expanded) { // The "Close" link was clicked
-          $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
-        }
-      }
-    });
 });
 
 
@@ -71,6 +62,10 @@ function watchSubmit () {
                     $('.js-results').append(output);
 
                 }
+                $('.js-info').readmore({
+      moreLink: '<a href="#">Read more</a>',
+      collapsedHeight: 25
+    });
             });
         }
 
