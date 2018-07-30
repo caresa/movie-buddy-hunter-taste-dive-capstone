@@ -110,11 +110,7 @@ button {
     background-position: center;
     padding: 0;
     position: relative;
-    border: 5px solid #fff;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    border: .25em solid #5E999E;
     margin-bottom: 1.5em;
     border-radius: .5em;
 }
@@ -127,6 +123,7 @@ button {
 .js-name {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
+    padding-top: .25em;
 }
 
 .js-info {
