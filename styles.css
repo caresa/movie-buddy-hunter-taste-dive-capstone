@@ -109,7 +109,7 @@ button {
     padding: 0;
     margin-bottom: 1.5em;
     border-radius: .5em;
-    float: right;
+    float: left;
     width: 33%;
     padding: 1em;
 }
