@@ -125,6 +125,8 @@ button{
     width: 66%;
 }
 
+.js-info + .readmore-js-toggle { padding-bottom: 1.5em; border-bottom: 1px solid #999; font-weight: bold;}
+
 
 /*footer styles*/
 

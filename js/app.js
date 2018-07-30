@@ -1,5 +1,14 @@
 $(document).ready(function() {
     watchSubmit ();
+     $('.js-name').readmore({
+      moreLink: '<a href=".js-name"${data.Similar.Results[i].wTeaser}</a>',
+      collapsedHeight: 384,
+      afterToggle: function(trigger, element, expanded) {
+        if(! expanded) { // The "Close" link was clicked
+          $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
+        }
+      }
+    });
 });
 
 
@@ -14,7 +23,7 @@ function getData (type, searchTerm, callback) {
         data: {
             q: searchTerm,
             info: 1,
-            limit: 9,
+            limit: 20,
             k:'310867-Suggesti-U8OHEM8L',
             type: type
         },
