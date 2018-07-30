@@ -116,6 +116,7 @@ button {
 
 .contain a {
     display: block;
+    padding-top: 1em;
 
 }
 
@@ -123,11 +124,12 @@ button {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
     padding-top: .25em;
+    font-size: 1em;
 }
 
 .js-info {
     text-align: left;
-    font-size: 1.25em;
+    font-size: .75em;
     display: inline-block;
     width: 66%;
     font-family: 'Josefin Sans', sans-serif;
@@ -147,7 +149,6 @@ button {
 .readmore-contain {
     display: block;
     /*height: 50px;*/
-    border: 1px solid red;
     overflow: hidden;
 }
 
