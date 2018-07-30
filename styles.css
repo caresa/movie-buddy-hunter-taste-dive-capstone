@@ -111,6 +111,7 @@ button {
     margin-bottom: 1.5em;
     border-radius: .5em;
     float: right;
+    width: 33%;
 }
 
 .contain a {
