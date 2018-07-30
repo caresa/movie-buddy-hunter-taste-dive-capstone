@@ -123,9 +123,15 @@ button{
     font-size: 65%;
     float: right;
     width: 66%;
+    font-family:'Josefin Sans', sans-serif;
+    margin: 0 auto;
 }
 
-.js-info + .readmore-js-toggle { padding-bottom: 1.5em; border-bottom: 1px solid #999; font-weight: bold;}
+.js-info + .readmore-js-toggle { 
+    padding-bottom: 1.5em; 
+    border-bottom: 1px solid #999; 
+    font-weight: bold;
+}
 
 
 /*footer styles*/

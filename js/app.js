@@ -2,7 +2,7 @@ $(document).ready(function() {
     watchSubmit ();
      $('.js-name').readmore({
       moreLink: '<a href=".js-name"${data.Similar.Results[i].wTeaser}</a>',
-      collapsedHeight: 384,
+      collapsedHeight: 100,
       afterToggle: function(trigger, element, expanded) {
         if(! expanded) { // The "Close" link was clicked
           $('html, body').animate({scrollTop: element.offset().top}, {duration: 100});
@@ -57,9 +57,7 @@ function watchSubmit () {
                     let output =
                         `<div class="contain">
                             <p class="js-name clearfix">${data.Similar.Results[i].Name}</p>
-                            <div class="js-info">
-                                <p class="js-name">${data.Similar.Results[i].wTeaser}</p>
-                            </div>
+                            <div class="js-info">${data.Similar.Results[i].wTeaser}</div>
                             <div class="js-video">
                                 <a class="js-result-name" href= "https://www.youtube.com/embed/${data.Similar.Results[i].yID}" target="_blank"
                                 data-featherlight="iframe" data-featherlight-iframe-frameborder="0"
