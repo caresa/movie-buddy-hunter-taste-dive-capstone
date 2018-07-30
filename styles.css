@@ -106,10 +106,7 @@ button {
 
 .contain {
     background-color: white;
-    background-size: cover;
-    background-position: center;
     padding: 0;
-    position: relative;
     border: .25em solid #5E999E;
     margin-bottom: 1.5em;
     border-radius: .5em;
