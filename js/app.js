@@ -47,21 +47,19 @@ function watchSubmit() {
                     let output =
                         `
                     <div class="contain">
-                            <p class="js-name clearfix">${data.Similar.Results[i].Name}</p>
-                     </div>
-                    <div class="contain">
-                            <div class="js-info">
-                                <span class="readmore-contain">${data.Similar.Results[i].wTeaser}</span>
-                            </div>
-                            <div class="js-video">
-                                <a class="js-result-name" href= "https://www.youtube.com/embed/${data.Similar.Results[i].yID}" target="_blank"
-                                data-featherlight="iframe" data-featherlight-iframe-frameborder="0"
-                                data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true"
-                                data-featherlight-iframe-style="display:block;border:none;height:85vh;width:85vw;">
-                                <iframe width="400" height="225" src="https://www.youtube.com/embed/${data.Similar.Results[i].yID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                </a>
-                            </div>
+                        <p class="js-name clearfix">${data.Similar.Results[i].Name}</p>
+                        <div class="js-info">
+                            <span class="readmore-contain">${data.Similar.Results[i].wTeaser}</span>
                         </div>
+                        <div class="js-video">
+                            <a class="js-result-name" href= "https://www.youtube.com/embed/${data.Similar.Results[i].yID}" target="_blank"
+                            data-featherlight="iframe" data-featherlight-iframe-frameborder="0"
+                            data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true"
+                            data-featherlight-iframe-style="display:block;border:none;height:85vh;width:85vw;">
+                            <iframe width="400" height="225" src="https://www.youtube.com/embed/${data.Similar.Results[i].yID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </a>
+                        </div>
+                    </div>
                         `;
                     $('.js-results').append(output);
                     $('.readmore-contain').readmore({
