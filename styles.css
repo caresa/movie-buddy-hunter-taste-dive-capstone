@@ -107,11 +107,11 @@ button {
 .contain {
     background-color: white;
     padding: 0;
-    border: .25em solid #5E999E;
     margin-bottom: 1.5em;
     border-radius: .5em;
     float: right;
     width: 33%;
+    padding: 1em;
 }
 
 .contain a {
