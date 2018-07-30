@@ -110,6 +110,7 @@ button {
     border: .25em solid #5E999E;
     margin-bottom: 1.5em;
     border-radius: .5em;
+    float: right;
 }
 
 .contain a {
