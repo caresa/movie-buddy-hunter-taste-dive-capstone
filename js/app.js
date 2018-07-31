@@ -56,7 +56,7 @@ function watchSubmit() {
                             data-featherlight="iframe" data-featherlight-iframe-frameborder="0"
                             data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true"
                             data-featherlight-iframe-style="display:block;border:none;height:85vh;width:85vw;">
-                            <iframe width="127" height="71" src="https://www.youtube.com/embed/${data.Similar.Results[i].yID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe width="100%" height="150" src="https://www.youtube.com/embed/${data.Similar.Results[i].yID}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </a>
                         </div>
                     </div>
