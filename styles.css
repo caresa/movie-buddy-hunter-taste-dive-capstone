@@ -168,18 +168,12 @@ button {
     /* acting like an IF statement, the media query is a set of conditions in which the containing css will be applied
     for example the statament above says: IF the media on which this CSS is going to used is SCREEN (Mobiles, Tables, Laptops, Desktops or Projectors) and the maximum resolution of that device is 1024px, THEN apply the body color blue for all the text
     */
-    body {
-        color: blue;
-    }
 }
 
 
 /*ipad potrait*/
 
 @media only screen and (max-width: 768px) {
-    body {
-        color: red;
-    }
     input[type=text] {
         width: 100%;
 
@@ -195,9 +189,7 @@ button {
 /*iPhone landscape*/
 
 @media only screen and (max-width: 480px) {
-    body {
-        color: green;
-    }
+
     .contain {
         width: 100%;
         display: block;
@@ -207,8 +199,4 @@ button {
 
 /*iPhone portrait*/
 
-@media only screen and (max-width: 320px) {
-    body {
-        color: purple;
-    }
-}
+@media only screen and (max-width: 320px) {}
