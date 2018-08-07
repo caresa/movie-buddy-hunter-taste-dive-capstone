@@ -29,11 +29,10 @@ function watchSubmit() {
         const queryTarget = $(event.currentTarget).find('.js-search-term');
         const queryVal = queryTarget.val();
 
+
+
         const typeTarget = $('input:checked[type="radio"]');
         const typeVal = typeTarget.val();
-
-        console.log(queryVal);
-        console.log(typeVal);
 
         if (queryVal == "") {
             $('.js-results').html(`Please enter a valid query`);
@@ -47,7 +46,7 @@ function watchSubmit() {
                     output = getResultMarkup(data.Similar.Results[i]);
                     $('.js-results').append(output);
                     $('.readmore-contain').readmore({
-                        moreLink: '<a href="#">Read more</a>',
+                        moreLink: '<a href="#">+</a>',
                         collapsedHeight: 70,
                         //overflow: hidden;
                     });
