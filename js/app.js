@@ -29,16 +29,12 @@ function watchSubmit() {
         const queryTarget = $(event.currentTarget).find('.js-search-term');
         const queryVal = queryTarget.val();
 
-
-
         const typeTarget = $('input:checked[type="radio"]');
         const typeVal = typeTarget.val();
 
         if (queryVal == "") {
             $('.js-results').html(`Please enter a valid query`);
         } else {
-            //clear input
-            queryTarget.val("");
             getData(typeVal, queryVal, function (data) {
                 $('.js-results').html("");
                 for (var i in data.Similar.Results) {
@@ -47,7 +43,7 @@ function watchSubmit() {
                     $('.js-results').append(output);
                     $('.readmore-contain').readmore({
                         moreLink: '<a href="#">+</a>',
-                        collapsedHeight: 70,
+                        collapsedHeight: 62,
                         //overflow: hidden;
                     });
 
