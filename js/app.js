@@ -41,13 +41,15 @@ function watchSubmit() {
                     $('js-results').append(data.Similar.Results[i].Name);
                     output = getResultMarkup(data.Similar.Results[i]);
                     $('.js-results').append(output);
-                    $('.readmore-contain').readmore({
-                        moreLink: '<a href="#">+</a>',
-                        collapsedHeight: 62,
-                        //overflow: hidden;
-                    });
 
                 }
+
+                $('.readmore-contain').readmore({
+                    moreLink: '<a href="#" class="more-link">+</a>',
+                    lessLink: '<a href="#" class="less-link">-</a>',
+                    collapsedHeight: 62,
+                    //overflow: hidden;
+                });
 
             });
         }

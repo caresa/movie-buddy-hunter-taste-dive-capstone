@@ -143,6 +143,8 @@ button {
     display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
+    position: relative;
+    padding-right: 20px;
 }
 
 .js-info + .readmore-js-toggle {
@@ -163,6 +165,24 @@ button {
 
 .readmore-contain,a{
     text-decoration: none;
+}
+
+.more-link {
+    position: absolute;
+    top: 23px;
+    right: 0px;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #5E999E;
+}
+
+.less-link {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #5E999E;
 }
 
 /*footer styles*/
