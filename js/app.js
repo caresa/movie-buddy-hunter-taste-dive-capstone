@@ -36,20 +36,26 @@ function watchSubmit() {
             $('.js-results').html(`Please enter a valid query`);
         } else {
             getData(typeVal, queryVal, function (data) {
-                $('.js-results').html("");
-                for (var i in data.Similar.Results) {
-                    $('js-results').append(data.Similar.Results[i].Name);
-                    output = getResultMarkup(data.Similar.Results[i]);
-                    $('.js-results').append(output);
+                if (data.Similar.Results.length > 0){
+
+
+                    $('.js-results').html("");
+                    for (var i in data.Similar.Results) {
+                        $('js-results').append(data.Similar.Results[i].Name);
+                        output = getResultMarkup(data.Similar.Results[i]);
+                        $('.js-results').append(output);
+
+                    }
+
+                    $('.readmore-contain').readmore({
+                        moreLink: '<a href="#" class="more-link">+</a>',
+                        lessLink: '<a href="#" class="less-link">-</a>',
+                        collapsedHeight: 62,
+                        //overflow: hidden;
+                    });
+                }else{
+                    $('.js-results').html(`Please enter a valid query`);
                 }
-
-                $('.readmore-contain').readmore({
-                    moreLink: '<a href="#" class="more-link">+</a>',
-                    lessLink: '<a href="#" class="less-link">-</a>',
-                    collapsedHeight: 62,
-                    //overflow: hidden;
-                });
-
             });
         }
 
