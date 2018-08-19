@@ -109,6 +109,7 @@ button {
     margin-right: auto;
     overflow: hidden;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .contain {

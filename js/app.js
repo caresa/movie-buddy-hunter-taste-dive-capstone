@@ -37,8 +37,6 @@ function watchSubmit() {
         } else {
             getData(typeVal, queryVal, function (data) {
                 if (data.Similar.Results.length > 0){
-
-
                     $('.js-results').html("");
                     for (var i in data.Similar.Results) {
                         $('js-results').append(data.Similar.Results[i].Name);
@@ -48,6 +46,7 @@ function watchSubmit() {
                     }
 
                     $('.readmore-contain').readmore({
+                        speed: 10000,
                         moreLink: '<a href="#" class="more-link">+</a>',
                         lessLink: '<a href="#" class="less-link">-</a>',
                         collapsedHeight: 62,
