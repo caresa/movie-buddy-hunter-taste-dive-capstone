@@ -33,7 +33,7 @@ function watchSubmit() {
         const typeVal = typeTarget.val();
 
         if (queryVal == "") {
-            $('.js-results').html(`Please enter a valid query`);
+            $('.js-warn').html(`Please enter a valid query`);
         } else {
             getData(typeVal, queryVal, function (data) {
                 if (data.Similar.Results.length > 0){
@@ -53,7 +53,7 @@ function watchSubmit() {
                         //overflow: hidden;
                     });
                 }else{
-                    $('.js-results').html(`Please enter a valid query`);
+                    $('.js-warn').html(`Please enter a valid query`);
                 }
             });
         }

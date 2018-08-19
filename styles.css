@@ -71,6 +71,11 @@ h1 {
     margin-bottom: 3em;
 }
 
+.js-warn {
+    text-align: center;
+    color: #5E999E;
+}
+
 .container {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
