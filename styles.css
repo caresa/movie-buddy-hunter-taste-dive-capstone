@@ -76,6 +76,7 @@ h1 {
     text-align: center;
     color: #5E999E;
     font-family: 'Paytone One', sans-serif;
+    /*visibility: hidden;*/
 }
 
 .container {

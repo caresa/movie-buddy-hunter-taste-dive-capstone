@@ -37,6 +37,7 @@ function watchSubmit() {
                         $('js-results').append(data.Similar.Results[i].Name);
                         output = getResultMarkup(data.Similar.Results[i]);
                         $('.js-results').append(output);
+                        $('.js-warn').html("");
 
                     }
 
