@@ -1,7 +1,3 @@
-$(document).ready(function () {
-    watchSubmit();
-});
-
 
 //api endpoint
 const BASE_URL = "https://tastedive.com/api/similar?"
@@ -82,3 +78,7 @@ function getResultMarkup(data) {
 
     return output;
 }
+
+$(document).ready(function () {
+    watchSubmit();
+});
