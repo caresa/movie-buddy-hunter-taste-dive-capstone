@@ -128,8 +128,8 @@ button {
     display: inline-block;
     width: 30%;
     padding: 1em;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid black;
 }
 
@@ -145,6 +145,9 @@ button {
     padding-top: .25em;
     padding-bottom: .50em;
     font-size: 2em;
+    overflow: hidden;
+    height: 77px;
+    /*adjusted height and overflow - waiting to commit*/
 }
 
 .js-info {
@@ -154,7 +157,6 @@ button {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
     position: relative;
-    padding-right: 20px;
 }
 
 .js-info + .readmore-js-toggle {
@@ -171,6 +173,7 @@ button {
     display: block;
     /*height: 50px;*/
     overflow: hidden;
+    height: 79px;
 }
 
 .readmore-contain,a{
@@ -224,11 +227,13 @@ button {
 
 /*iPhone landscape*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
 
     .contain {
-        width: 100%;
+        width: 95%;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

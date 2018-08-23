@@ -41,6 +41,7 @@ function watchSubmit() {
 
                     }
 
+                    /*
                     $('.readmore-contain').readmore({
                         speed: 10000,
                         moreLink: '<a href="#" class="more-link">read more</a>',
@@ -48,6 +49,7 @@ function watchSubmit() {
                         collapsedHeight: 62,
                         //overflow: hidden;
                     });
+                    */
                 } else {
                     $('.js-warn').html(`Please enter a valid query`);
                 }
@@ -81,4 +83,16 @@ function getResultMarkup(data) {
 
 $(document).ready(function () {
     watchSubmit();
+
+    $('.js-results').on('mouseover', '.contain', function (e) {
+        $(this).find('.readmore-contain').css({
+            'overflow': 'scroll'
+        });
+    });
+
+    $('.js-results').on('mouseout', '.contain', function (e) {
+        $(this).find('.readmore-contain').css({
+            'overflow': 'hidden'
+        });
+    });
 });
