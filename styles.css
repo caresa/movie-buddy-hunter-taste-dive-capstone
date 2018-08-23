@@ -181,6 +181,7 @@ button {
     font-size: 16pt;
     font-weight: bold;
     color: #5E999E;
+    text-shadow: 0.05em 0.05em black;
 }
 
 .less-link {
@@ -191,6 +192,7 @@ button {
     font-weight: bold;
     color: #5E999E;
     margin-bottom: -16px;
+    text-shadow: 0.05em 0.05em black;
 }
 
 /*footer styles*/
