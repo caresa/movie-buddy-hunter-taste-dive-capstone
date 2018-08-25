@@ -68,7 +68,7 @@ function getResultMarkup(data) {
             data-featherlight="iframe" data-featherlight-iframe-frameborder="0"
             data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true"
             data-featherlight-iframe-style="display:block;border:none;height:85vh;width:85vw;">
-            <iframe width="100%" height="150" src="https://www.youtube.com/embed/${data.yID}" frameborder="0" allow="autoplay;      encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" height="150" src="https://www.youtube.com/embed/${data.yID}" frameborder="0" allow="autoplay;encrypted-media" allowfullscreen></iframe>
             </a>
         </div>
         <p class="js-name clearfix">${data.Name}</p>
