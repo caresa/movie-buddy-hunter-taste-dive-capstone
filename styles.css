@@ -167,7 +167,6 @@ button {
 
 .js-info:hover {
     overflow: scroll;
-    cursor: all-scroll;
 }
 
 .js-video {
@@ -179,6 +178,7 @@ button {
     /*height: 50px;*/
     overflow: hidden;
     height: 79px;
+    cursor: all-scroll;
 }
 
 .readmore-contain,
