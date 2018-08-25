@@ -18,4 +18,4 @@ Javascipt
 
 ## First page:
 
-![firstPage](firstPage.jpg?raw=true "First Page")
+![firstPage](screens/firstPage.jpg?raw=true "First Page")
