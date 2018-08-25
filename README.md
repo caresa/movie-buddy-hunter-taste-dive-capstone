@@ -17,4 +17,4 @@ Javascipt
 
 ## First page:
 
-![Screens](firstPage.jpg)
+![Screenshot](firstPage.jpg)
