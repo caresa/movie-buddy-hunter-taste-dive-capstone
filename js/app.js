@@ -9,7 +9,7 @@ function getData(type, searchTerm, callback) {
         data: {
             q: searchTerm,
             info: 1,
-            limit: 30,
+            limit: 12,
             k: '310867-Suggesti-U8OHEM8L',
             type: type
         },
