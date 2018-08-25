@@ -21,4 +21,4 @@ Markup :  - - - -
 
 ## First page:
 
-![Screenshot](firstPage.jpg)
+![firstPage](firstPage.jpg?raw=true "First Page")
