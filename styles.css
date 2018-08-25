@@ -160,12 +160,6 @@ button {
     position: relative;
 }
 
-.js-info + .readmore-js-toggle {
-    padding-bottom: 1.5em;
-    border-bottom: 1px solid #999;
-    font-weight: bold;
-}
-
 .js-info:hover {
     overflow: scroll;
 }
@@ -185,27 +179,6 @@ button {
 .readmore-contain,
 a {
     text-decoration: none;
-}
-
-.more-link {
-    position: absolute;
-    top: 40px;
-    right: 0px;
-    font-size: 16pt;
-    font-weight: bold;
-    color: #5E999E;
-    text-shadow: 0.05em 0.05em black;
-}
-
-.less-link {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #5E999E;
-    margin-bottom: -16px;
-    text-shadow: 0.05em 0.05em black;
 }
 
 /*footer styles*/
