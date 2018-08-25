@@ -81,9 +81,7 @@ function getResultMarkup(data) {
     return output;
 }
 
-$(document).ready(function () {
-    watchSubmit();
-
+function hoverListen() {
     $('.js-results').on('mouseover', '.contain', function (e) {
         $(this).find('.readmore-contain').css({
             'overflow': 'scroll'
@@ -95,4 +93,11 @@ $(document).ready(function () {
             'overflow': 'hidden'
         });
     });
+
+}
+
+$(document).ready(function () {
+    watchSubmit();
+    hoverListen();
+
 });
