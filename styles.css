@@ -52,13 +52,17 @@ p {
     color: #5E999E;
 }
 
+#heading {
+    margin-bottom: 0;
+}
+
 /*content styles*/
 
 h1 {
     font-size: 4em;
     letter-spacing: .05em;
     color: #5E999E;
-    text-shadow: .05em .05em black;
+    text-shadow: .1em .1em black;
 
 }
 
