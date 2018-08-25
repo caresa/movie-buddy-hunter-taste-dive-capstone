@@ -41,15 +41,6 @@ function watchSubmit() {
 
                     }
 
-                    /*
-                    $('.readmore-contain').readmore({
-                        speed: 10000,
-                        moreLink: '<a href="#" class="more-link">read more</a>',
-                        lessLink: '<a href="#" class="less-link">read less</a>',
-                        collapsedHeight: 62,
-                        //overflow: hidden;
-                    });
-                    */
                 } else {
                     $('.js-warn').html(`Please enter a valid query`);
                 }
