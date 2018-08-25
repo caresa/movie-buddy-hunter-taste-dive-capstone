@@ -165,6 +165,10 @@ button {
     font-weight: bold;
 }
 
+.js-info:hover {
+    overflow: scroll;
+}
+
 .js-video {
     display: inline-block;
 }
@@ -176,7 +180,8 @@ button {
     height: 79px;
 }
 
-.readmore-contain,a{
+.readmore-contain,
+a {
     text-decoration: none;
 }
 
