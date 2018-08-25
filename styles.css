@@ -167,6 +167,7 @@ button {
 
 .js-info:hover {
     overflow: scroll;
+    cursor: all-scroll;
 }
 
 .js-video {
