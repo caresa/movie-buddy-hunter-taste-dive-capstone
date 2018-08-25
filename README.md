@@ -19,3 +19,15 @@ Javascipt
 ## First page:
 
 ![firstPage](screens/firstPage.jpg?raw=true "First Page")
+
+## Results:
+
+![results](screens/results.jpg?raw=true "Results")
+
+## Ligtbox:
+
+![lightbox](screens/lightBox.jpg?raw=true "Lightbox")
+
+## Failure:
+
+![failure](screens/failure.jpg?raw=true "Failure")
