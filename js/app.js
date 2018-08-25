@@ -38,9 +38,7 @@ function watchSubmit() {
                         output = getResultMarkup(data.Similar.Results[i]);
                         $('.js-results').append(output);
                         $('.js-warn').html("");
-
                     }
-
                 } else {
                     $('.js-warn').html(`Please enter a valid query`);
                 }
