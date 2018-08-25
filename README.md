@@ -10,5 +10,11 @@ Live preview: https://caresa.github.io/movie-buddy-hunter-taste-dive-capstone/
 
 # Built with:
 HTML
-CSS 
+CSS
 Javascipt
+
+# Screens:
+
+## First page:
+
+![Screens](firstPage.jpg)
