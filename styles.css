@@ -150,7 +150,6 @@ button {
     padding-top: .25em;
     padding-bottom: .50em;
     font-size: 2em;
-    overflow: hidden;
     height: 77px;
     /*adjusted height and overflow - waiting to commit*/
 }
@@ -162,7 +161,6 @@ button {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
     position: relative;
-    overflow-y: scroll;
 }
 
 .js-video {
