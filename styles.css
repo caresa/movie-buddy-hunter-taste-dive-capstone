@@ -162,10 +162,7 @@ button {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
     position: relative;
-}
-
-.js-info:hover {
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .js-video {
@@ -177,7 +174,7 @@ button {
     /*height: 50px;*/
     overflow: hidden;
     height: 79px;
-    cursor: all-scroll;
+    cursor: vertical-text;
 }
 
 .readmore-contain,
