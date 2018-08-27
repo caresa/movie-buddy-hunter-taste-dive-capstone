@@ -170,8 +170,8 @@ button {
 .readmore-contain {
     display: block;
     /*height: 50px;*/
-    overflow: hidden;
     height: 79px;
+    overflow-y: scroll;
 }
 
 .readmore-contain,

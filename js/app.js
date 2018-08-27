@@ -72,25 +72,9 @@ function getResultMarkup(data) {
     return output;
 }
 
-//listen for mouseover event
-function hoverListen() {
-    $('.js-results').on('mouseover', '.contain', function (e) {
-        $(this).find('.readmore-contain').css({
-            'overflow': 'scroll'
-        });
-    });
 
-    $('.js-results').on('mouseout', '.contain', function (e) {
-        $(this).find('.readmore-contain').css({
-            'overflow': 'hidden'
-        });
-    });
-
-}
-
-//call watchSubmit and hoverListen functions
+//call watchSubmit
 $(document).ready(function () {
     watchSubmit();
-    hoverListen();
 
 });
