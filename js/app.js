@@ -17,6 +17,7 @@ function getData(type, searchTerm, callback) {
     });
 };
 
+//watches for start button, media type, and query. displays error if invalid query
 function watchSubmit() {
     $('#js-start').submit(event => {
         event.preventDefault();
@@ -48,6 +49,7 @@ function watchSubmit() {
     });
 }
 
+//get results and display them in template literal
 function getResultMarkup(data) {
     let output =
         `
@@ -70,6 +72,7 @@ function getResultMarkup(data) {
     return output;
 }
 
+//listen for mouseover event
 function hoverListen() {
     $('.js-results').on('mouseover', '.contain', function (e) {
         $(this).find('.readmore-contain').css({
@@ -85,6 +88,7 @@ function hoverListen() {
 
 }
 
+//call watchSubmit and hoverListen functions
 $(document).ready(function () {
     watchSubmit();
     hoverListen();
