@@ -185,7 +185,7 @@ a {
     text-decoration: none;
 }
 
-/*footer styles*/
+/*media queries*/
 
 @media only screen and (max-width: 1024px) {
     /* acting like an IF statement, the media query is a set of conditions in which the containing css will be applied
